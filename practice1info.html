@@ -1,0 +1,67 @@
+<link rel="stylesheet" href="practice1info.css">
+
+  <html>
+      <head>
+          <title>registration page - php salt and hash password - www.codeofaninja.com</title>
+          <link type="text/css" rel="stylesheet" href="css/style.css" />
+      </head>
+  <body>
+
+
+  <div id="loginForm">
+  <form style="margin-left:25%; margin-right:25%; width:50%;text-align:center;">
+                        <h1> DEBIT/NO DEBIT<br>
+                      <p>  <input type="radio" name="option" value="Debit"> I have a Debit/ Credit card<br>
+                        <input type="radio" name="option" value="Cash"> I do not have Debit/Credit card<br></p
+              </form>
+              <form>
+                GENDER<br>
+                <input type="radio" name="gender" value="male"> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other<br>
+                <input type="radio" name="gender" value="other"> I Rather Not Say<br>
+
+      </form>
+      <form class = "form" >
+        <div id="formHeader">REGISTRATION FORM</div>
+        First name:<br>
+        <input type="text" name="firstname" required><br>
+        Last name:<br>
+        <input type="text" name="lastname"reqired><br>
+        Phone Number:<br>
+        <input type="text" name="phonenumber"required><br>
+        Email Address:<br>
+        <input type="type" name="emailaddress"required><br>
+
+      <form action="register.php" method="post">
+
+          <div id="formBody">
+              <div class="formField">
+                CREATE USER/PASSWORD<br>
+                Username:
+                <br>
+                <input type="username" name="username" required placeholder="Username" />
+                <br>
+                Password:
+                <br>
+                <input type="password" name="password" required placeholder="Password" />
+              </div>
+              <input type="submit" value="submit">
+              <input type="reset">
+    </form>
+              <div id='userNotes'>
+              </div>
+
+
+
+  </div>
+
+  </body>
+  </html>
+
+
+  <style>
+  h1 {
+    font-size: 2.20em; /* 40px/16=2.5em */
+
+</style>
